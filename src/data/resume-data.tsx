@@ -102,25 +102,43 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "AI-Note-App",
+      techStack: [
+        "NextJs",
+        "TypeScript",
+        "Next.js",
+        "Vite",
+        "Vector Embeddings",
+        "OpenAI",
+        "Pinecone",
+        "MongoDb",
+      ],
       description:
         "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+      logo: ConsultlyLogo,
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        label: "AI-Note-App",
+        href: "https://github.com/abhishekHegde2000/ai-note-app",
       },
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Netflix_GPT",
+      techStack: [
+        "ReactJs",
+        "Javascript",
+        "Firbase",
+        "Vite",
+        "MovieDB API",
+        "OpenAI",
+        "Redux Toolkit",
+        ,
+      ],
       description:
         "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
+      logo: ConsultlyLogo,
       link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        label: "Netflix-GPT",
+        href: "https://github.com/abhishekHegde2000/netflix-gpt",
       },
     },
   ],
