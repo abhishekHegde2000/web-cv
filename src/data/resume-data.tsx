@@ -83,7 +83,7 @@ export const RESUME_DATA = {
       title: "Software Developer Intern",
       logo: ParabolLogo,
       start: "2022",
-      end: "2024",
+      end: "2022",
       description: [
         "Spearheaded the design and development of dynamic web applications using Javascript, HTML, CSS, and Node.js.",
         "Proactively addressed and resolved frontend bugs, ensuring the seamless functionality and integrity of the applications.",
