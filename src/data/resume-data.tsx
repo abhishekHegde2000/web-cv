@@ -20,43 +20,44 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Abhishek Hegde",
+  initials: "AH",
+  location: "Bengaluru, Karnatak, India",
+  locationLink:
+    "https://www.google.com/maps/place/Hebbige,+Karnataka+577452/@13.9538682,74.8956599,16z/data=!3m1!4b1!4m6!3m5!1s0x3bbc790c494e75f1:0xc2c44abdd412e803!8m2!3d13.956197!4d74.9006032!16s%2Fg%2F11vj7grb7?entry=ttu",
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Motivated UI developer with over 1 year of experience crafting sleek, responsive web interfaces and driving engaging user experiences. Proficient in ReactJs, HTML, CSS, and JavaScript. I excel in collaborative environments and am eager to leverage my skills to contribute to the success of dynamic organizations, be it in full-stack product engineering or digital solutions provision.",
+  // avatarUrl: photo,
+  personalWebsiteUrl: "https://my-portfolio-nu-puce.vercel.app/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "upahegde28@gmail.com",
+    tel: "+919448063523",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/abhishekHegde2000",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/abhishekhegde28",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/abhishekHegde28",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Sahyadri College of Engineering and Management",
+      degree: "Bachelor's Degree in Electronics and Communication Engineering",
+      start: "2018",
+      end: "2022",
     },
   ],
   work: [
