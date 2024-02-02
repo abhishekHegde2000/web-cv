@@ -15,6 +15,7 @@ interface Props {
 }
 
 export function ProjectCard({ title, description, tags, link }: Props) {
+  // console.log(description);
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
       <CardHeader className="">
@@ -37,13 +38,11 @@ export function ProjectCard({ title, description, tags, link }: Props) {
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
           <CardDescription className="font-mono text-xs">
-            {description.map((line, index) => {
-              return (
-                <div key={index} className="list-disc text-justify">
-                  <p className="mb-1 list-disc pl-2 text-justify">{line}</p>
-                </div>
-              );
-            })}
+            {description.map((desc, index) => (
+              <ul className="list-disc pl-4" key={index}>
+                <li className="text-justify">{desc}</li>
+              </ul>
+            ))}
           </CardDescription>
         </div>
       </CardHeader>
